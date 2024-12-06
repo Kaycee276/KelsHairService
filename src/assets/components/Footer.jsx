@@ -13,7 +13,7 @@ function Footer() {
         <div className="grid md:grid-cols-3 gap-6">
           {/* Contact Info */}
           <div className="text-center">
-            <h3 className="text-2xl font-bold mb-4">Contact Us</h3>
+            <h3 className="text-2xl font-sans font-bold mb-4">Contact Us</h3>
             <p className="text-orange-500">
               <FontAwesomeIcon icon={faPhone} className="mr-2" /> +123 456 7890
             </p>
@@ -25,7 +25,7 @@ function Footer() {
 
           {/* Opening Hours */}
           <div className="text-center">
-            <h3 className="text-2xl font-bold mb-4">Opening Hours</h3>
+            <h3 className="text-2xl font-sans font-bold mb-4">Opening Hours</h3>
             <p className="text-orange-500">
               Monday - Friday: 9:00 AM - 7:00 PM
             </p>
@@ -35,7 +35,7 @@ function Footer() {
 
           {/* Social Media Links */}
           <div className="text-center">
-            <h3 className="text-2xl font-bold mb-4">Follow Us</h3>
+            <h3 className="text-2xl font-sans font-bold mb-4">Follow Us</h3>
             <div className="flex justify-center space-x-6">
               <a href="#" className="hover:text-white text-orange-500">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />

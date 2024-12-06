@@ -20,7 +20,7 @@ function Hero() {
       <div className="w-full h-full">
         <div className="flex items-center justify-center w-full  bg-white text-black   p-8 md:h-full">
           <div className="text-left max-w-lg">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-orange-500">
+            <h1 className="text-4xl md:text-5xl font-sans font-bold mb-4 text-orange-500">
               Refresh. Revive. Reveal the Real You
             </h1>
             <p className="text-sm md:text-xl mb-6">

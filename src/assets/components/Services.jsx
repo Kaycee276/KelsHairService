@@ -89,7 +89,7 @@ function Services() {
       </div>
 
       {/* Content */}
-      <h2 className="text-3xl font-bold mb-8">Our Services</h2>
+      <h2 className="text-3xl font-bold font-sans mb-8">Our Services</h2>
       <div
         className={`relative w-full max-w-4xl mx-auto ${
           isModalOpen ? "opacity-50 blur-sm" : ""
@@ -125,7 +125,7 @@ function Services() {
                     className="w-full h-full object-cover cursor-pointer"
                     onClick={() => openModal(image)}
                   />
-                  <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-2 text-center text-sm">
+                  <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-orange-500 p-2 text-center text-sm">
                     {image.description}
                   </div>
                 </div>
