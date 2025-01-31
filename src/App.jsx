@@ -5,11 +5,20 @@ import Services from "./assets/components/Services";
 
 const App = () => {
   return (
-    <div className="font-cursive ">
-      <Header />
-      <Hero />
-      <Services />
-      <Footer />
+    <div className="font-lora relative">
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url("/Donut.jpeg")' }}
+      />
+
+      <div className="absolute inset-0 bg-black/80" />
+
+      <div className="relative">
+        <Header />
+        <Hero />
+        <Services />
+        <Footer />
+      </div>
     </div>
   );
 };

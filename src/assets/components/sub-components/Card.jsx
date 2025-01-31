@@ -16,13 +16,13 @@ const Card = ({ closeModal, image }) => {
   }, []);
 
   return (
-    <section className="fixed inset-0 flex items-center justify-center p-6">
+    <section className="fixed inset-0 flex text-[#7b7a7a] items-center justify-center p-6">
       <div
         onClick={closeModal}
         className="absolute top-0 left-0 backdrop-blur-sm w-screen h-screen z-40"
         style={{ backgroundColor: "rgba(0,0,0, 0.7)" }}
       ></div>
-      <div className=" rounded bg-white relative max-h-full overflow-y-scroll p-4 z-50 max-w-md md:max-w-xl lg:max-w-2xl">
+      <div className=" rounded-xl bg-orange-950/80 shadow-lg shadow-[#533e26] relative max-h-full p-4 z-50 max-w-md md:max-w-xl lg:max-w-2xl">
         {/* Xmark */}
         <div
           className=" absolute top-4 left-4 rounded p-2 cursor-pointer hover:bg-gray-300 hover:text-red-600 transition-all grid place-items-center"
@@ -34,7 +34,9 @@ const Card = ({ closeModal, image }) => {
 
         <div className="">
           {/* Card Title */}
-          <h1 className="my-5 font-sans font-extrabold">{image.description}</h1>
+          <h1 className="my-5 font-sans text-white font-extrabold">
+            {image.description}
+          </h1>
 
           <section className="flex flex-col lg:flex-row md:flex-row gap-4">
             <img
@@ -48,10 +50,7 @@ const Card = ({ closeModal, image }) => {
                 {image.serviceDescription}
               </p>
               <StarRating />
-              <button
-                className="p-2 border border-green-500 rounded-md bg-green-500 hover:bg-green-600 hover:scale-105 transition-transform"
-                // style={{ transition: "all ease .5s" }}
-              >
+              <button className="p-2 text-[#e7e3e3] rounded-md bg-[#14460f] hover:bg-[#14460a]  transition-transform">
                 Book an Appointment
               </button>
             </div>

@@ -7,12 +7,12 @@ import {
 
 function Header() {
   return (
-    <header className="bg-green-800 text-white fixed w-full top-0 left-0 z-50 shadow-md">
+    <header className="bg-[#14460f] text-[#b2a8a8] fixed w-full top-0 left-0 z-50 shadow-md shadow-[#345232]">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-sm sm:text-2xl md:text-2xl lg:text-2xl font-bold">
           <a href="/" className="text-white">
-            Hair Salon
+            <span className="text-orange-600">Kels</span> Hair Services
           </a>
         </div>
 

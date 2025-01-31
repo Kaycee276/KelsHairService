@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        cursive: ["Dancing Script", "cursive", "sans-serif"],
+        hind: ["Hind", "sans-serif"],
+        istok: ["Istok Web", "sans-serif"],
+        lora: ["Lora", "serif"],
       },
     },
   },
